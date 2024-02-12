@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    color: #ffffff;
+    /* background-image: linear-gradient(to right, #0505AB, #005C53, #9FC131,#DBF227, #D6D58E );
+    background-image: linear-gradient(to left, #0505AB, #005C53, #9FC131,#DBF227, #D6D58E ); */
+    /* background-image: linear-gradient(to bottom, #0505AB, #005C53, #9FC131,#DBF227, #D6D58E ); */
+    /* background-image: linear-gradient(-65deg, #0505AB, #005C53 ); */
+    background-image: radial-gradient(circle, #0505AB, #005C53 );
+    background-attachment: fixed;
+} 

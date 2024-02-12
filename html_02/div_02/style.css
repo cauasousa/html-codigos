@@ -1,0 +1,30 @@
+h1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+/* 
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; */
+    margin: auto; /*irá ser no centro */
+
+    outline-width: 5px;
+    outline-style: dotted;
+    outline-color: red;
+}
+
+ul{
+    font-size: 15px;
+    width: 160px;
+    height: 150px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+}

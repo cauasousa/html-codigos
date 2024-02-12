@@ -1,0 +1,18 @@
+body{
+    color: #dfdfdf;
+    /* background-color: #404040; */
+    background-attachment: fixed; /* Fixa a cor de fundo*/
+    background-image: linear-gradient(to bottom,#404040, #595959, #8C8C8C);
+}
+
+main{
+    /* background-color: #808080; */
+    background-image: radial-gradient(circle, #808080, #A6A6A6, #2929292a);
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto; /* margem */
+    width: 715px; /*tamanho da tela */
+    color: #0D0D0D;
+    padding: 17px; /*margem do do quadrado*/
+    border-radius: 3%; /*pontas do quadrado para ficar redenda*/
+    
+}

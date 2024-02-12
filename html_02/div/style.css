@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid slateblue; /*borda do quadrado*/
+    border-radius: 8px;
+    background-color: aqua; /*cor do quadrado */
+    text-align: center;
+    /* color: chartreuse; */
+    display: inline-block;
+    /* display: inline-flex; */
+}
+
+
+div#d1:hover{
+    background-color: black;
+    color: antiquewhite;
+    /* text-align: center; */
+
+}
+
+div#d2:hover{
+    background-color: rgb(134, 1, 1);
+    color: antiquewhite;
+}
+
+div#d3:hover{
+    background-color: rgb(2, 96, 124);
+    color: rgb(4, 4, 44);
+}
+
+#d1 > main{
+    display: none;
+}
+
+#d1:hover > main{
+    /* display: block; */
+    display: inline-block;
+
+    color: blue;
+    background-color: darkmagenta;
+    width: 200px;
+    height: 2px;
+}
